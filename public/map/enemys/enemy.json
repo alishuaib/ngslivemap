@@ -1,0 +1,348 @@
+{
+    "Alters": [
+        {
+            "src": "/assets/enemys/Alters/Banehog.png",
+            "name": "Banehog",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/BiggFrogga.png",
+            "name": "Bigg Frogga",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/Chiacurio.png",
+            "name": "Chiacurio",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/EldiScythe.png",
+            "name": "Eldi Scythe",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/EvilAngelo.png",
+            "name": "Evil Angelo",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/Heruc.png",
+            "name": "Heruc",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/LizardFray.png",
+            "name": "Lizard Fray",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/LizardIce.png",
+            "name": "Lizard Ice",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/LizardThunder.png",
+            "name": "Lizard Thunder",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Alters/Waulon.png",
+            "name": "Waulon",
+            "drops": [],
+            "notes": ""
+        }
+    ],
+    "Dolls": [
+        {
+            "src": "/assets/enemys/Dolls/Bujin.png",
+            "name": "Bujin",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/DaitylAxe.png",
+            "name": "Daityl Axe",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/DaitylSword.png",
+            "name": "Daityl Sword",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Dotts.png",
+            "name": "Dotts",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Fuwan.png",
+            "name": "Fuwan",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Gororon.png",
+            "name": "Gororon",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Gororox.png",
+            "name": "Gororox",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/NexAelio.png",
+            "name": "Nex Aelio",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/NexVera.png",
+            "name": "Nex Vera",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Nogleth.png",
+            "name": "Nogleth",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Oruq.png",
+            "name": "Oruq",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettasAxe.png",
+            "name": "Pettas Axe",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettasGun.png",
+            "name": "Pettas Gun",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettasLauncher.png",
+            "name": "Pettas Launcher",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettasSword.png",
+            "name": "Pettas Sword",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettasVera.png",
+            "name": "Pettas Vera",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettaxAxe.png",
+            "name": "Pettax Axe",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettaxGun.png",
+            "name": "Pettax Gun",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettaxLauncher.png",
+            "name": "Pettax Launcher",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/PettaxSword.png",
+            "name": "Pettax Sword",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Tinos.png",
+            "name": "Tinos",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Dolls/Varas.png",
+            "name": "Varas",
+            "drops": [],
+            "notes": ""
+        }
+    ],
+    "Formers": [
+        {
+            "src": "/assets/enemys/Formers/AgnisLore.png",
+            "name": "Agnis Lore",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/ArdBanser.png",
+            "name": "Ard Banser",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/ArdBanshee.png",
+            "name": "Ard Banshee",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/CragBear.png",
+            "name": "Crag Bear",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/GaraGarongo.png",
+            "name": "Gara Garongo",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/GrulfLore.png",
+            "name": "Grulf Lore",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/PhongrulfLore.png",
+            "name": "Phongrulf Lore",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/ThunderBanser.png",
+            "name": "Thunder Banser",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/ThunderBanshee.png",
+            "name": "Thunder Banshee",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/UdanLore.png",
+            "name": "Udan Lore",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Formers/ZaUdanLore.png",
+            "name": "Za Udan Lore",
+            "drops": [],
+            "notes": ""
+        }
+    ],
+    "Special": [
+        {
+            "src": "/assets/enemys/Special/CeremoRappy.png",
+            "name": "Ceremo Rappy",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Special/Rappy.png",
+            "name": "Rappy",
+            "drops": [],
+            "notes": ""
+        }
+    ],
+    "Tames": [
+        {
+            "src": "/assets/enemys/Tames/Birdoth.png",
+            "name": "Birdoth",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Dian.png",
+            "name": "Dian",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Frango.png",
+            "name": "Frango",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/MooBell.png",
+            "name": "Moo Bell",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Moony.png",
+            "name": "Moony",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Noxxi.png",
+            "name": "Noxxi",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Otarica.png",
+            "name": "Otarica",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Patt.png",
+            "name": "Patt",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Sunny.png",
+            "name": "Sunny",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/TauBell.png",
+            "name": "Tau Bell",
+            "drops": [],
+            "notes": ""
+        },
+        {
+            "src": "/assets/enemys/Tames/Voks.png",
+            "name": "Voks",
+            "drops": [],
+            "notes": ""
+        }
+    ]
+}

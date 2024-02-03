@@ -1,0 +1,288 @@
+.logo {
+	opacity: 0.7;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	color: #9c9c9c;
+	align-items: center;
+	justify-content: center;
+	img {
+		width: 3.2em;
+	}
+	h2 {
+		font-size: 1.25em;
+		line-height: 1em;
+		user-select: none;
+	}
+}
+
+.toolPanel {
+	opacity: 0.7;
+	position: absolute;
+	flex-direction: column;
+	bottom: 80px;
+	right: 20px;
+	display: flex;
+	height: fit-content;
+	width: 2.5em;
+	// background-color: white;
+	color: #9c9c9c;
+	row-gap: 0.5em;
+	padding-bottom: 0.5em;
+	> div {
+		padding: 4px 4px;
+		width: 100%;
+		aspect-ratio: 1/1;
+		border-radius: 1000px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: white;
+		> svg {
+			width: 1.5em;
+			height: 1.5em;
+		}
+		&:hover {
+			filter: brightness(85%);
+			cursor: pointer;
+		}
+	}
+	.panelTitle {
+		display: flex;
+		height: 30px;
+		background-color: #eeeeee;
+		align-items: center;
+		justify-content: center;
+		user-select: none;
+		&:hover {
+			filter: brightness(100%);
+			cursor: auto;
+		}
+	}
+}
+
+.markerSettings {
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 250px;
+	background-color: white;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+	color: #9c9c9c;
+	> h2 {
+		align-self: center;
+		justify-self: center;
+		position: relative;
+		font-size: 3em;
+		color: #9c9c9c;
+		opacity: 0.25;
+		top: 25%;
+		text-align: center;
+	}
+	> div {
+		padding: 0.5em 8px;
+	}
+	img {
+		width: 2em;
+	}
+	.panelTitle {
+		display: flex;
+		height: 30px;
+		background-color: #eeeeee;
+		align-items: center;
+		user-select: none;
+	}
+	.markerDetails {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		text-transform: capitalize;
+		column-gap: 0.5em;
+	}
+	.markerOption {
+		display: flex;
+		flex-direction: column;
+		.opts {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			column-gap: 0.5em;
+		}
+	}
+}
+
+.markerPanel {
+	display: flex;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	height: 500px;
+	width: fit-content;
+	background-color: white;
+	box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.3);
+	.show {
+		display: flex;
+		flex-direction: column;
+		row-gap: 1em;
+		height: 100%;
+		width: 50px;
+		// padding-right: 3px;
+		background-color: #eeeeee;
+		color: #9c9c9c;
+		text-align: center;
+		user-select: none;
+		cursor: move;
+		.showBtn {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0.5em 0em;
+			background-color: #d6d6d6;
+			transition: filter 0.4s ease;
+			> svg {
+				width: 2em;
+				height: 2em;
+				rotate: 90deg;
+				transform: rotateX(180deg);
+				fill: #686868;
+				transition: transform 0.4s ease;
+			}
+			&:hover {
+				filter: brightness(0.8);
+				cursor: pointer;
+			}
+			&.active {
+				> svg {
+					transform: rotateX(0deg);
+				}
+			}
+		}
+		> p {
+			align-self: center;
+			writing-mode: vertical-rl;
+			text-orientation: sideways;
+			letter-spacing: 0.1em;
+			font-size: 1.1em;
+		}
+		> span {
+			fill: #a6a6a6;
+		}
+		.infoSelect {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: end;
+			width: 100%;
+			.clickInfo {
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				font-size: 0.75em;
+				img {
+					width: 3em;
+					transition: 0.5s filter ease;
+				}
+				justify-content: center;
+				align-items: center;
+			}
+			padding-bottom: 1em;
+		}
+	}
+	.markerBox {
+		display: flex;
+		width: 300px;
+		.markerSelect {
+			// padding: 0.5em 1em;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			// flex-wrap: wrap;
+			// gap: 1em;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			.groupBox {
+				width: 100%;
+				height: fit-content;
+				display: flex;
+				flex-direction: column;
+				> span {
+					display: flex;
+					background-color: #eeeeee;
+					color: #9c9c9c;
+					width: 100%;
+					height: 1.75em;
+					padding: 0em 0.5em;
+					align-items: center;
+					user-select: none;
+					// &:hover {
+					// 	filter: brightness(0.8);
+					// 	cursor: pointer;
+					// }
+				}
+				> p {
+					align-self: center;
+					position: relative;
+					font-size: 1.5em;
+					color: #9c9c9c;
+					opacity: 0.45;
+					word-wrap: none;
+				}
+				.groupBtns {
+					padding: 0.5em 0em;
+					justify-content: center;
+					display: flex;
+					flex-direction: row;
+					flex-wrap: wrap;
+					row-gap: 0.5em;
+					column-gap: 0.5em;
+				}
+			}
+			.markerItem {
+				position: relative;
+				display: grid;
+				height: 3em;
+				width: 3em;
+				padding: 0.25em;
+				border-radius: 5px;
+				border: 4px solid #eeeeee;
+				transition: all 0.3s ease;
+				img {
+					width: 100%;
+				}
+				&:hover {
+					border-color: #9c9c9c;
+					background-color: #eeeeee;
+					cursor: pointer;
+					&::before {
+						opacity: 1;
+					}
+				}
+				&::before {
+					// content: attr(data-type);
+					opacity: 0;
+					transition: opacity 0.3s ease;
+					pointer-events: none;
+					height: 95%;
+					width: 95%;
+					word-wrap: break-word;
+					text-align: center;
+					position: absolute;
+					left: -5%;
+					top: -5%;
+					background-color: #eeeeeec2;
+					border: 2px solid #9c9c9c;
+					border-radius: 5px;
+					padding: 5%;
+				}
+				.active {
+					border-color: dodgerblue;
+				}
+			}
+		}
+	}
+}

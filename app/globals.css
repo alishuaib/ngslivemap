@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+	--bg-main: #ffffff;
+	--bg-sub2: #f8f8f8;
+
+	--scrollbarWidth: 10px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: background-color 0.3s ease, color 0.3s ease,
+		border-color 0.3s ease;
+}
+html,
+body {
+	font-family: "Lato", sans-serif;
+	overflow: hidden;
+}
+
+body {
+	position: relative;
+	display: flex;
+	/* flex-direction: column-reverse; */
+	/* transition: flex .5s ease; */
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--c-m2);
+	--c-m1: #ffffff;
+	--c-m2: #f8f8f8;
+	--c-b: #dcdcdc;
+	--c-i: #c6c6c6;
+	--c-t1: #505050;
+	--c-t2: #9c9c9c;
+}
+
+body::before {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(135deg, #bebebe80 50%, transparent 0),linear-gradient(-135deg, #bebebe80 50%, transparent 0);
+	background-size: 3em 3em;
+	background-color: #ffffff;
+	opacity: 0.25;
+	z-index: -1;
+}
+
+.toast {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	white-space: nowrap;
+	font-size: 1.25em;
+}
+
+.toast img {
+	display: inline;
+	width: 2em;
+	height: 2em;
+}
+
+::-webkit-scrollbar {
+	width: var(--scrollbarWidth);
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(155, 155, 155, 0.261);
+	border-radius: 20px;
+	border: transparent;
+}

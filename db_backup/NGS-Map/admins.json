@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "617400da93a22c6848fd78ff"
+  },
+  "name": "Primo",
+  "email": "alishuaib2001as@gmail.com",
+  "googleId": "101605136992667001492",
+  "lastLogin": "Thu Sep 23 2021 13:34:11 GMT+0000 (Coordinated Universal Time)",
+  "rep": 9999,
+  "votes": {}
+},{
+  "_id": {
+    "$oid": "63f0ff5cbbd86b6e2ad821ea"
+  },
+  "name": "Qelris Mysmae",
+  "email": "mysmae.lite@outlook.com",
+  "googleId": "112969619270189733095",
+  "lastLogin": "Sat Feb 18 2023 16:36:24 GMT+0000 (Coordinated Universal Time)",
+  "rep": 9999,
+  "votes": {}
+}]
