@@ -1,4 +1,4 @@
-# NGS Live Map - Online Interactive Map for Phantasy Star Online 2: New Genesis
+# NGS Live Map - Online Map for Phantasy Star Online 2: New Genesis
 
 This is a interactive live map for the game Phantasy Star Online 2: New Genesis.
 
@@ -6,7 +6,7 @@ It is designed to let players find resources, enemies, and other points of inter
 
 ## 💭 Motivation & Problem
 
-The goal of this project is to solve the problem of players (espically newbies) finding crucial resources that reset daily.
+The goal of this project is to solve the problem of players (especially newbies) finding crucial resources that reset daily.
 
 Even missing a few resources can set a player back a few days in terms of progression. It's a frustrating problem for not only the player but also for the game developers wanting to keep players engaged.
 
@@ -24,7 +24,7 @@ Watch this 2 minute video for a live demonstration of NGS Live Map
 
 ### View Live Demo
 
-Check out a live demo at [map.matoi.ca](https://map.matoi.ca)
+Check out a live demo at [ngs.matoi.ca](https://ngs.matoi.ca)
 
 ## 📖 Features / Usage
 
