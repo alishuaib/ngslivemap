@@ -27,11 +27,20 @@ export default function Viewport({ children }) {
 	}, [])
 
 	return (
-		<div className={mapStyle.view} ref={viewBound}>
+		<div
+			className={mapStyle.view}
+			ref={viewBound}
+		>
 			<MapManager edit>{children}</MapManager>
 			<div className={mapStyle.overlay}>
-				<div className={style.logo} style={{ pointerEvents: "none" }}>
-					<img src="/assets/sidebar/logo.svg" alt="" />
+				<div
+					className={style.logo}
+					style={{ pointerEvents: "none" }}
+				>
+					<img
+						src="/assets/sidebar/logo.svg"
+						alt=""
+					/>
 					<h2>
 						NGS Dashboard
 						<br />
@@ -41,24 +50,35 @@ export default function Viewport({ children }) {
 				<div className={style.toolPanel}>
 					{/* <div className={style.panelTitle}>Tools</div> */}
 					<div onClick={() => setLayer((l) => (l == 0 ? 1 : 0))}>
-						<svg id="layerBtn" viewBox="0 0 31.83 25.23">
+						<svg
+							id="layerBtn"
+							viewBox="0 0 31.83 25.23"
+						>
 							<g>
 								<polygon
-									style={{ fill: layer ? "#115d94" : "transparent" }}
+									style={{
+										fill: layer ? "#115d94" : "transparent",
+									}}
 									points="3.18 17.27 16.08 11.05 28.7 17.32 16.08 23.58 3.18 17.27"
 								/>
 								<path
-									style={{ fill: layer ? "#115d94" : "#52a5d6" }}
+									style={{
+										fill: layer ? "#115d94" : "#52a5d6",
+									}}
 									d="m16.07,12.72l9.26,4.6-9.25,4.59-9.47-4.63,9.46-4.56m.02-3.32s-.06,0-.09.02L.11,17.08c-.15.07-.15.29,0,.36l15.89,7.78s.06.02.09.02.06,0,.09-.02l15.54-7.71c.15-.07.15-.28,0-.36l-15.54-7.72s-.06-.02-.09-.02h0Z"
 								/>
 							</g>
 							<g>
 								<polygon
-									style={{ fill: layer ? "transparent" : "#115d94" }}
+									style={{
+										fill: layer ? "transparent" : "#115d94",
+									}}
 									points="3.18 7.86 16.08 1.65 28.7 7.91 16.08 14.18 3.18 7.86"
 								/>
 								<path
-									style={{ fill: layer ? "#52a5d6" : "#115d94" }}
+									style={{
+										fill: layer ? "#52a5d6" : "#115d94",
+									}}
 									d="m16.07,3.32l9.26,4.6-9.25,4.59L6.61,7.87l9.46-4.56m.02-3.32s-.06,0-.09.02L.11,7.67c-.15.07-.15.29,0,.36l15.89,7.78s.06.02.09.02.06,0,.09-.02l15.54-7.71c.15-.07.15-.28,0-.36L16.17.02s-.06-.02-.09-.02h0Z"
 								/>
 							</g>
@@ -80,7 +100,7 @@ export default function Viewport({ children }) {
 					</div>
 				</div>
 				<MarkerPanel bound={viewBound}></MarkerPanel>
-				{/* <MarkerSettings /> */}
+				<MarkerSettings />
 			</div>
 			<Toaster position="bottom-center" />
 		</div>

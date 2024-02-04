@@ -20,7 +20,16 @@ This project aims to solve that problem.
 
 ### Video Demonstration [2 minutes]
 
-Watch this 2 minute video for a live demonstration of NGS Live Map
+Watch this 4 minute video for a demonstration of NGS Live Map
+
+<div>
+    <a href="https://www.loom.com/share/0bf7ab4d869a4e6688d0c3bc10fb8b46">
+    <p>NGS Live Map Demonstration - Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/0bf7ab4d869a4e6688d0c3bc10fb8b46">
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/0bf7ab4d869a4e6688d0c3bc10fb8b46-with-play.gif">
+    </a>
+</div>
 
 ### View Live Demo
 
