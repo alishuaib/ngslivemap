@@ -18,7 +18,7 @@ This project aims to solve that problem.
 
 ## 🚀 Quick Start
 
-### Video Demonstration [2 minutes]
+### Video Demonstration [4 minutes]
 
 Watch this 4 minute video for a demonstration of NGS Live Map
 
