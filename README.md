@@ -31,6 +31,8 @@ Watch this 4 minute video for a demonstration of NGS Live Map
     </a>
 </div>
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/0bf7ab4d869a4e6688d0c3bc10fb8b46?sid=3fb0d944-965d-407f-88f3-2e9f23b5a095" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### View Live Demo
 
 Check out a live demo at [ngs.matoi.ca](https://ngs.matoi.ca)
